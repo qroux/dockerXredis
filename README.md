@@ -24,6 +24,9 @@ services:
 define a restart policy:
 
 "no"
+
 always
+
 on-failure
-unless_stopped
+
+unless-stopped
