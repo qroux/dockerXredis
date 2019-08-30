@@ -23,10 +23,10 @@ services:
 
 define a restart policy:
 
-"no"
+"no" (nb: it's string type)
 
-always
+always (default policy)
 
-on-failure
+on-failure (to deal with a process that naturally ends, and don't need to restart right after finishing it's job)
 
 unless-stopped
